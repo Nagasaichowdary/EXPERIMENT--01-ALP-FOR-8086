@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :P.Aditya Naga SAi
+Roll no :212223110036
+Date of experiment :13-08-2024
 
 
 
