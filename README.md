@@ -137,6 +137,7 @@ AND AX,BX;
 ## output:
 ![image](https://github.com/user-attachments/assets/57409b62-7639-496a-bd42-d23453718bcf)
 ## OR
+```
 org 100h
 
 MOV SI,0532H;
@@ -144,16 +145,20 @@ MOV AX,0A32H;
 MOV BX,0B13H;
 OR AX,BX;
 ret
+```
 ## output:
 ![image](https://github.com/user-attachments/assets/2ebd4eb3-2dd3-422a-8f4e-efc5e76b8121)
 ## NOT
+```
 MOV [SI+4],AX;
 MOV AX,0A32H;
 NOT AX;
 MOV [SI+6],AX;
+```
 ## ouput:
 ![image](https://github.com/user-attachments/assets/7c529046-7dc6-4bdc-9dd3-67ccc9d0d04d)
 ## XOR
+```
 org 100h
 
 MOV [SI+4],AX;
@@ -161,6 +166,7 @@ MOV AX,0A32H;
 NOT AX;
 MOV [SI+6],AX;
 ret
+```
 ## output:
 ![image](https://github.com/user-attachments/assets/aefdd574-5edb-4177-81ec-202646267d2e)
 
